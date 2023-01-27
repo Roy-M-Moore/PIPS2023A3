@@ -38,19 +38,3 @@ make_art <- function(seed = NULL, resolution = 150, colors = c("black", "green")
 }
 
 make_art(seed = 2, resolution = 175, colors = c("blue", "pink"))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
