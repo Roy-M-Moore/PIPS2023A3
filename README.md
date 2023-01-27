@@ -34,3 +34,22 @@ cheat(1)
 ```
 
 <img src="A3Q1.png" width="50%" />
+
+
+
+## make_art()
+
+The make_art() function will create random art following striped patterns. It can take three arguments:
+- seed: set a seed so that the artwork can be repeated multiple times. Defaults to NULL.
+- resolution: how many "patches" should the image have. Defaults to 150.
+- colors: a vector of two colors to be specified in the form ' c("color1", "color2") '. Defaults to black and green.
+
+
+
+### Example
+
+``` r
+make_art(seed = 2, resolution = 175, colors = c("blue", "pink"))
+```
+
+<img src="A3.2Q2.png" width="50%" />
